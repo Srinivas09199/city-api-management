@@ -1,0 +1,21 @@
+{
+  "name": "city-api",
+  "version": "1.0.0",
+  "description": "city-api-management",
+  "main": "server.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.cjs"
+  },
+  "author": "Sai Srinivas Dandangi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
